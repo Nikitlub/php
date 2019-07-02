@@ -1,0 +1,1 @@
+SELECT `id_autor`, COUNT(*) FROM autor_book GROUP BY id_autor HAVING COUNT(id_autor) < 7
